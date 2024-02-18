@@ -1,0 +1,44 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Landscape_Mat_Inst.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Landscape_Mat.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt2/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt2/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt2/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt2/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Dirt/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass1/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass1/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass1/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass1/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Grass/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff1/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff1/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff1/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff1/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff3/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff3/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff3/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff3/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff2/albedo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff2/displacement.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff2/normal.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Landscape/Rock_Cliff2/roughness.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Maps/Main_sharedassets/Auto_LayerInfo.uasset",
+				"C:/Users/tcaron/Projects/CapyTown/Content/Maps/Main_sharedassets/Dirt_LayerInfo.uasset"
+			]
+		}
+	]
+}
