@@ -5068,3 +5068,317 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.22-21.06.47:359][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 11.4 sec)
 [2024.02.22-21.06.47:360][511]AssetCheck: New page: Asset Save: Grass_Mat_Inst
 [2024.02.22-21.06.47:360][511]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Landscape/Mesh/Grass/Grass_Mat_Inst.Grass_Mat_Inst
+[2024.02.22-21.07.46:001][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.07.46:113][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Mesh/Grass/Grass_Mat_Inst" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/Grass_Mat_Inst.uasset" SILENT=true
+[2024.02.22-21.07.46:117][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.02.22-21.07.46:123][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.02.22-21.07.46:126][856]LogSavePackage: Moving output files for package: /Game/Landscape/Mesh/Grass/Grass_Mat_Inst
+[2024.02.22-21.07.46:126][856]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Grass_Mat_Inst32B39096445D669B89F74A9801C784D2.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/Grass_Mat_Inst.uasset'
+[2024.02.22-21.07.46:137][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 11.5 sec)
+[2024.02.22-21.07.46:141][856]AssetCheck: New page: Asset Save: Grass_Mat_Inst
+[2024.02.22-21.07.46:141][856]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Landscape/Mesh/Grass/Grass_Mat_Inst.Grass_Mat_Inst
+[2024.02.22-21.08.15:046][555]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-21.08.15:052][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-21.08.15:052][555]PIE: New page: PIE session: Main (Feb 22, 2024, 11:08:15 PM)
+[2024.02.22-21.08.15:052][555]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.08.15:065][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013004s)
+[2024.02.22-21.08.15:065][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.013048s)
+[2024.02.22-21.08.15:070][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.02.22-21.08.15:071][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-21.08.15:071][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-21.08.15:072][555]LogAIModule: Creating AISystem for world Main
+[2024.02.22-21.08.15:072][555]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2024.02.22-21.08.15:072][555]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-21.08.15:072][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-21.08.15:072][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-21.08.15:072][555]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-21.08.15:072][555]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-21.08.15:072][555]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-21.08.15:074][555]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-21.08.15:106][555]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2024.02.22-21.08.15:106][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-21.08.15:106][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-21.08.15:106][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-21.08.15:107][555]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.02.22-21.08.15:107][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=15
+[2024.02.22-21.08.15:108][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.02.22-21.08.15:109][555]LogInit: FAudioDevice initialized with ID 15.
+[2024.02.22-21.08.15:109][555]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.02.22-21.08.15:109][555]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main'.
+[2024.02.22-21.08.15:109][555]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.22-21.08.15:111][555]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-21.08.15:114][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.22-22.08.15
+[2024.02.22-21.08.15:115][555]LogWorld: Bringing up level for play took: 0.002669
+[2024.02.22-21.08.15:117][555]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.02.22-21.08.15:121][555]PIE: Server logged in
+[2024.02.22-21.08.15:121][555]PIE: Play in editor total start time 0.069 seconds.
+[2024.02.22-21.08.23:810][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.08.23:810][318]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.08.23:811][318]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-21.08.23:811][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.08.23:814][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-21.08.23:818][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.08.23:823][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.08.23:823][318]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.02.22-21.08.23:823][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.22-21.08.23:825][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.02.22-21.08.23:832][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.02.22-21.08.23:911][319]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.02.22-21.08.28:308][637]LogViewport: Scene viewport resized to 1094x495, mode Windowed.
+[2024.02.22-21.09.53:196][702]Cmd: TRANSACTION UNDO
+[2024.02.22-21.09.53:197][702]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.09.56:673][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.09.56:729][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.09.56:750][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.02.22-21.09.56:827][892]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.09.56:828][892]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Main9E416B164E45560031A1DBB4C7711F19.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.09.56:833][892]LogFileHelpers: All files are already saved.
+[2024.02.22-21.09.56:833][892]LogFileHelpers: Saving map 'Main' took 0.104
+[2024.02.22-21.09.56:846][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 173 ms (total: 11.7 sec)
+[2024.02.22-21.09.56:854][892]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.09.56:854][892]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.10.12:370][894]LogViewport: Scene viewport resized to 1428x495, mode Windowed.
+[2024.02.22-21.10.14:376][ 52]Cmd: DELETE
+[2024.02.22-21.10.14:376][ 52]Cmd: ACTOR DELETE
+[2024.02.22-21.10.14:381][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.22-21.10.14:386][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.02.22-21.10.14:389][ 52]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2024.02.22-21.10.15:399][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.10.15:451][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.10.15:469][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.02.22-21.10.15:545][128]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.10.15:545][128]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/MainA6CA249442233B9359FC0F86ADD55C55.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.10.15:551][128]LogFileHelpers: All files are already saved.
+[2024.02.22-21.10.15:551][128]LogFileHelpers: Saving map 'Main' took 0.101
+[2024.02.22-21.10.15:559][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 11.8 sec)
+[2024.02.22-21.10.15:567][128]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.10.15:567][128]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.10.17:340][260]LogViewport: Scene viewport resized to 1094x495, mode Windowed.
+[2024.02.22-21.10.24:236][784]Cmd: TRANSACTION UNDO
+[2024.02.22-21.10.24:236][784]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.10.25:413][832]Cmd: TRANSACTION UNDO
+[2024.02.22-21.10.25:414][832]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.10.28:416][871]LogSlate: Window 'Choose Location for Foliage Type Asset' being destroyed
+[2024.02.22-21.10.34:779][291]Cmd: TRANSACTION UNDO
+[2024.02.22-21.10.34:779][291]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.10.42:202][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.10.42:257][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.10.42:275][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.02.22-21.10.42:352][735]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.10.42:353][735]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Main9E7408784E54E13436BFCB8EB2749531.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.10.42:358][735]LogFileHelpers: All files are already saved.
+[2024.02.22-21.10.42:358][735]LogFileHelpers: Saving map 'Main' took 0.102
+[2024.02.22-21.10.42:373][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 12.0 sec)
+[2024.02.22-21.10.42:379][735]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.10.42:379][735]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.10.43:250][793]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-21.10.43:257][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-21.10.43:257][793]PIE: New page: PIE session: Main (Feb 22, 2024, 11:10:43 PM)
+[2024.02.22-21.10.43:257][793]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.10.43:268][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011924s)
+[2024.02.22-21.10.43:268][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.011960s)
+[2024.02.22-21.10.43:274][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.02.22-21.10.43:275][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-21.10.43:275][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-21.10.43:275][793]LogAIModule: Creating AISystem for world Main
+[2024.02.22-21.10.43:275][793]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2024.02.22-21.10.43:275][793]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-21.10.43:276][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-21.10.43:276][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-21.10.43:276][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-21.10.43:276][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-21.10.43:276][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-21.10.43:278][793]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-21.10.43:307][793]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2024.02.22-21.10.43:307][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-21.10.43:307][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-21.10.43:307][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-21.10.43:309][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.22-21.10.43:309][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=16
+[2024.02.22-21.10.43:311][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.22-21.10.43:311][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.22-21.10.43:311][793]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.22-21.10.43:311][793]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main'.
+[2024.02.22-21.10.43:311][793]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.22-21.10.43:315][793]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-21.10.43:317][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.22-22.10.43
+[2024.02.22-21.10.43:319][793]LogWorld: Bringing up level for play took: 0.002923
+[2024.02.22-21.10.43:320][793]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.02.22-21.10.43:323][793]PIE: Server logged in
+[2024.02.22-21.10.43:325][793]PIE: Play in editor total start time 0.069 seconds.
+[2024.02.22-21.10.59:059][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.10.59:060][781]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.10.59:060][781]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-21.10.59:060][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.10.59:064][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-21.10.59:067][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.10.59:071][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.10.59:072][781]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.22-21.10.59:072][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.22-21.10.59:074][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.22-21.10.59:081][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.02.22-21.10.59:152][783]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.02.22-21.11.02:328][992]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.11.02:387][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.11.02:406][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.02.22-21.11.02:482][992]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.11.02:482][992]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/MainEC32F768432DC999BCB03E85A6AC68C0.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.11.02:487][992]LogFileHelpers: All files are already saved.
+[2024.02.22-21.11.02:487][992]LogFileHelpers: Saving map 'Main' took 0.101
+[2024.02.22-21.11.02:502][992]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 12.2 sec)
+[2024.02.22-21.11.02:507][992]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.11.02:507][992]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.11.11:590][535]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-21.11.11:597][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-21.11.11:597][535]PIE: New page: PIE session: Main (Feb 22, 2024, 11:11:11 PM)
+[2024.02.22-21.11.11:630][535]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.11.11:642][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011668s)
+[2024.02.22-21.11.11:642][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.011715s)
+[2024.02.22-21.11.11:647][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.02.22-21.11.11:648][535]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-21.11.11:648][535]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-21.11.11:649][535]LogAIModule: Creating AISystem for world Main
+[2024.02.22-21.11.11:649][535]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2024.02.22-21.11.11:649][535]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-21.11.11:649][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-21.11.11:649][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-21.11.11:650][535]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-21.11.11:650][535]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-21.11.11:650][535]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-21.11.11:652][535]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-21.11.11:681][535]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2024.02.22-21.11.11:681][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-21.11.11:681][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-21.11.11:681][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-21.11.11:682][535]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.22-21.11.11:682][535]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=17
+[2024.02.22-21.11.11:683][535]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.22-21.11.11:683][535]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.22-21.11.11:683][535]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.22-21.11.11:683][535]LogAudio: Display: Audio Device (ID: 17) registered with world 'Main'.
+[2024.02.22-21.11.11:683][535]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.22-21.11.11:687][535]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-21.11.11:690][535]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.22-22.11.11
+[2024.02.22-21.11.11:690][535]LogWorld: Bringing up level for play took: 0.003150
+[2024.02.22-21.11.11:692][535]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.02.22-21.11.11:696][535]PIE: Server logged in
+[2024.02.22-21.11.11:698][535]PIE: Play in editor total start time 0.102 seconds.
+[2024.02.22-21.11.20:769][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.11.20:769][107]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.11.20:769][107]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-21.11.20:770][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.11.20:773][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-21.11.20:776][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.11.20:781][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.11.20:781][107]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.22-21.11.20:781][107]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.22-21.11.20:783][107]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.22-21.11.20:790][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.02.22-21.11.20:860][109]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.02.22-21.12.04:703][ 59]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.04:703][ 59]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.12.05:996][107]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.05:996][107]LogEditorTransaction: Undo Edit Max
+[2024.02.22-21.12.19:511][958]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.19:511][958]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.12.20:602][993]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.20:602][993]LogEditorTransaction: Undo Edit Min
+[2024.02.22-21.12.22:969][128]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.22:969][128]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.12.23:878][158]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.23:878][158]LogEditorTransaction: Undo Edit Max
+[2024.02.22-21.12.31:932][651]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.31:932][651]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.12.39:876][118]Cmd: TRANSACTION UNDO
+[2024.02.22-21.12.39:876][118]LogEditorTransaction: Undo Foliage Editing
+[2024.02.22-21.13.06:375][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.13.06:430][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.13.06:448][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.02.22-21.13.06:523][853]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.13.06:524][853]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Main0001D6CA4DAC8FF9A4E05E85A6709893.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.13.06:529][853]LogFileHelpers: All files are already saved.
+[2024.02.22-21.13.06:529][853]LogFileHelpers: Saving map 'Main' took 0.100
+[2024.02.22-21.13.06:541][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 12.3 sec)
+[2024.02.22-21.13.06:548][853]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.13.06:548][853]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.13.15:005][416]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-21.13.15:012][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-21.13.15:012][416]PIE: New page: PIE session: Main (Feb 22, 2024, 11:13:15 PM)
+[2024.02.22-21.13.15:039][416]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.13.15:049][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011245s)
+[2024.02.22-21.13.15:049][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.011306s)
+[2024.02.22-21.13.15:054][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.02.22-21.13.15:055][416]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-21.13.15:055][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-21.13.15:055][416]LogAIModule: Creating AISystem for world Main
+[2024.02.22-21.13.15:056][416]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2024.02.22-21.13.15:056][416]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-21.13.15:056][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-21.13.15:056][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-21.13.15:056][416]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-21.13.15:056][416]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-21.13.15:056][416]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-21.13.15:059][416]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-21.13.15:089][416]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2024.02.22-21.13.15:089][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-21.13.15:089][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-21.13.15:089][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-21.13.15:090][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.22-21.13.15:091][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=18
+[2024.02.22-21.13.15:092][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.22-21.13.15:092][416]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.22-21.13.15:092][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.22-21.13.15:092][416]LogAudio: Display: Audio Device (ID: 18) registered with world 'Main'.
+[2024.02.22-21.13.15:092][416]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.22-21.13.15:096][416]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-21.13.15:099][416]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.22-22.13.15
+[2024.02.22-21.13.15:099][416]LogWorld: Bringing up level for play took: 0.002931
+[2024.02.22-21.13.15:101][416]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.02.22-21.13.15:106][416]PIE: Server logged in
+[2024.02.22-21.13.15:107][416]PIE: Play in editor total start time 0.096 seconds.
+[2024.02.22-21.13.34:849][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.13.34:849][623]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.13.34:849][623]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-21.13.34:849][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.13.34:854][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-21.13.34:857][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.13.34:861][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.13.34:862][623]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.22-21.13.34:862][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.22-21.13.34:864][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.22-21.13.34:870][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.02.22-21.13.34:947][625]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.02.22-21.13.35:700][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.13.35:755][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.13.35:773][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.02.22-21.13.35:848][669]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.13.35:848][669]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Main33D610894813E275D90D6AB6A27CE6C0.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.13.35:854][669]LogFileHelpers: All files are already saved.
+[2024.02.22-21.13.35:854][669]LogFileHelpers: Saving map 'Main' took 0.100
+[2024.02.22-21.13.35:868][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 12.5 sec)
+[2024.02.22-21.13.35:871][669]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.13.35:871][669]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
