@@ -5382,3 +5382,928 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.22-21.13.35:868][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 12.5 sec)
 [2024.02.22-21.13.35:871][669]AssetCheck: New page: Asset Save: Main
 [2024.02.22-21.13.35:871][669]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.14.18:720][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2024.02.22-21.14.18:728][ 55]LogViewport: Scene viewport resized to 1428x495, mode Windowed.
+[2024.02.22-21.14.27:650][805]LogViewport: Scene viewport resized to 375x456, mode Windowed.
+[2024.02.22-21.14.27:776][807]LogViewport: Scene viewport resized to 153x158, mode Windowed.
+[2024.02.22-21.14.27:839][808]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2024.02.22-21.14.28:252][823]LogViewport: Scene viewport resized to 207x393, mode Windowed.
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.37:423][427]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: ================================================
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Total job queries 2,128, among them cache hits 1,719 (80.78%)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Tracking 409 distinct input hashes that result in 230 distinct outputs (56.23%)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: RAM used: 8.79 MiB of 1.60 GiB budget. Usage: 0.54%
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Shaders Compiled: 385
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Jobs assigned 385, completed 385 (100%)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Average time worker was idle: 35.57 s
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Time job spent in pending queue: average 0.23 s, longest 2.52 s
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 1.61 s
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Job life time (pending + execution): average 0.73 s, max 2.95
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Shader code size: average 36.623 KiB, min 2.262 KiB, max 62.656 KiB
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 39.12 s
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Jobs were issued in 365 batches (only local compilation was used), average 1.05 jobs/batch
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Average processing rate: 9.84 jobs/sec
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Total thread time: 119.646 s
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Total thread preprocess time: 11.7 s
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Percentage time preprocessing: 9.78%
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Effective parallelization: 3.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    7 times, average 0.45 sec, max 0.50 sec, min 0.42 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    7 times, average 0.44 sec, max 0.48 sec, min 0.40 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    7 times, average 0.44 sec, max 0.46 sec, min 0.40 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   12 times, average 0.40 sec, max 0.49 sec, min 0.36 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    8 times, average 0.40 sec, max 0.47 sec, min 0.35 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.84% of total time (compiled   48 times, average 0.32 sec, max 0.49 sec, min 0.22 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.79% of total time (compiled   48 times, average 0.32 sec, max 0.48 sec, min 0.26 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.30% of total time (compiled   31 times, average 0.32 sec, max 0.45 sec, min 0.27 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.04% of total time (compiled   12 times, average 0.40 sec, max 0.49 sec, min 0.36 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 3.92% of total time (compiled   31 times, average 0.15 sec, max 0.24 sec, min 0.12 sec)
+[2024.02.22-21.14.37:441][428]LogShaderCompilers: Display: ================================================
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.37:470][429]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.38:487][493]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.38:500][493]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.38:544][495]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.38:545][495]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.38:545][495]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.38:545][495]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.39:741][568]LogMaterialEditor: Applying material Grass_Mat
+[2024.02.22-21.14.39:928][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.02.22-21.14.40:662][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.44:348][775]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.44:390][777]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.44:391][777]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.47:655][984]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.47:667][984]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.47:713][986]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.51:991][250]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.52:033][252]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.52:033][252]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.52:033][252]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.52:033][252]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.52:033][252]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.52:034][252]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.54:466][404]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.54:467][404]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.54:510][406]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.55:987][495]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.56:029][497]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.14.57:667][599]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.57:680][599]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.14.57:725][601]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.14.57:727][601]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.14.57:727][601]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.00:675][777]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.00:717][779]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.00:718][779]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.01:775][842]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.01:815][844]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.04:044][983]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.04:087][985]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.04:872][ 31]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.04:884][ 31]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.04:929][ 33]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.08:567][258]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.08:610][260]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.12:551][513]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.12:594][515]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.13:297][557]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.13:311][557]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.13:358][559]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.15:894][712]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.15:894][712]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.15:894][712]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.15:894][712]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.15:895][712]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.15:895][712]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.15:895][712]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.15:895][712]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.15:895][712]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.15:895][712]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.15:937][714]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.16:609][754]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.16:621][754]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.16:666][756]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.23:150][194]LogMaterialEditor: Applying material Grass_Mat
+[2024.02.22-21.15.23:328][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.02.22-21.15.23:489][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.32:415][775]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.32:457][777]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.38:873][186]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.38:915][188]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.41:241][337]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.41:241][337]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.41:242][337]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.41:283][339]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.44:694][560]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.44:737][562]MaterialEditorStats: Shader Count: 11
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.49:269][853]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.49:311][855]MaterialEditorStats: Shader Count: 9
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.50:730][944]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.50:771][946]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.54:781][208]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.54:824][210]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.56:831][334]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.56:873][336]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.58:852][459]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.58:894][461]MaterialEditorStats: Shader Count: 9
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.59:868][519]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.15.59:908][521]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.16.02:313][671]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.02:325][671]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.02:326][671]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.02:326][671]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.02:372][673]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.05:450][860]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.05:493][862]MaterialEditorStats: Shader Count: 11
+[2024.02.22-21.16.07:064][959]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.07:079][959]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.07:125][961]MaterialEditorStats: Shader Count: 9
+[2024.02.22-21.16.08:019][ 13]LogMaterialEditor: Applying material Grass_Mat
+[2024.02.22-21.16.08:194][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.02.22-21.16.08:359][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.13:712][352]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.13:753][354]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.16.14:695][411]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.14:708][411]MaterialEditorStats: Shader Count: 0
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.16.14:754][413]MaterialEditorStats: Shader Count: 7
+[2024.02.22-21.16.21:659][871]LogMaterialEditor: Applying material Grass_Mat
+[2024.02.22-21.16.21:837][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.02.22-21.16.21:999][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.02.22-21.16.23:806][980]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-21.16.23:812][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-21.16.23:812][980]PIE: New page: PIE session: Main (Feb 22, 2024, 11:16:23 PM)
+[2024.02.22-21.16.23:838][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.16.23:848][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011081s)
+[2024.02.22-21.16.23:848][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.011127s)
+[2024.02.22-21.16.23:853][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.02.22-21.16.23:855][980]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-21.16.23:855][980]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-21.16.23:855][980]LogAIModule: Creating AISystem for world Main
+[2024.02.22-21.16.23:855][980]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2024.02.22-21.16.23:855][980]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.02.22-21.16.23:855][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-21.16.23:855][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-21.16.23:855][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-21.16.23:855][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-21.16.23:855][980]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-21.16.23:855][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-21.16.23:857][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-21.16.23:857][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-21.16.23:857][980]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-21.16.23:857][980]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-21.16.23:857][980]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-21.16.23:859][980]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-21.16.23:889][980]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2024.02.22-21.16.23:889][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-21.16.23:890][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-21.16.23:890][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-21.16.23:890][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.02.22-21.16.23:890][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=19
+[2024.02.22-21.16.23:892][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.02.22-21.16.23:892][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.02.22-21.16.23:892][980]LogInit: FAudioDevice initialized with ID 19.
+[2024.02.22-21.16.23:892][980]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main'.
+[2024.02.22-21.16.23:892][980]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.22-21.16.23:894][980]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-21.16.23:897][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.22-22.16.23
+[2024.02.22-21.16.23:897][980]LogWorld: Bringing up level for play took: 0.002859
+[2024.02.22-21.16.23:899][980]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.02.22-21.16.23:903][980]PIE: Server logged in
+[2024.02.22-21.16.23:904][980]PIE: Play in editor total start time 0.093 seconds.
+[2024.02.22-21.16.27:349][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.16.27:349][210]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.16.27:349][210]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-21.16.27:350][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.16.27:354][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-21.16.27:356][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.16.27:362][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.16.27:363][210]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.22-21.16.27:363][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.22-21.16.27:365][210]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.22-21.16.27:370][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.02.22-21.16.27:445][212]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.02.22-21.17.13:412][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.17.13:528][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Mesh/Grass/Grass_Mat_Inst" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/Grass_Mat_Inst.uasset" SILENT=true
+[2024.02.22-21.17.13:533][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.02.22-21.17.13:543][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.02.22-21.17.13:545][939]LogSavePackage: Moving output files for package: /Game/Landscape/Mesh/Grass/Grass_Mat_Inst
+[2024.02.22-21.17.13:545][939]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Grass_Mat_InstF5A92709436ED256F012C4861112A7BA.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/Grass_Mat_Inst.uasset'
+[2024.02.22-21.17.13:556][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 12.6 sec)
+[2024.02.22-21.17.13:557][939]AssetCheck: New page: Asset Save: Grass_Mat_Inst
+[2024.02.22-21.17.13:557][939]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Landscape/Mesh/Grass/Grass_Mat_Inst.Grass_Mat_Inst
+[2024.02.22-21.17.17:568][215]LogMaterialEditor: Saving and Compiling material Grass_Mat
+[2024.02.22-21.17.17:686][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.17.19:773][215]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2024.02.22-21.17.19:854][215]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.080962s
+[2024.02.22-21.17.19:854][215]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.085765s (0.085765s overbudget)
+[2024.02.22-21.17.19:869][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Mesh/Grass/Grass_Mat" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/Grass_Mat.uasset" SILENT=true
+[2024.02.22-21.17.19:875][215]LogSavePackage: Moving output files for package: /Game/Landscape/Mesh/Grass/Grass_Mat
+[2024.02.22-21.17.19:875][215]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Grass_Mat36CCFBFF4DC18632E86F0CAD7451C650.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/Grass_Mat.uasset'
+[2024.02.22-21.17.19:885][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.19 sec (total: 14.8 sec)
+[2024.02.22-21.17.19:888][215]AssetCheck: New page: Asset Save: Grass_Mat
+[2024.02.22-21.17.19:888][215]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Landscape/Mesh/Grass/Grass_Mat.Grass_Mat
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: Base pass shader: 228 instructions
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: Base pass vertex shader: 247 instructions
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: MaxSampler: 272 instructions
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: Texture samplers: 5/16
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(2)
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: LWC Promote usages (Est.): 21
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: LWC Demote usages (Est.): 3
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: LWC Add usages (Est.): 14
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: LWC Divide usages (Est.): 6
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: LWC Multiply Vector Vector usages (Est.): 11
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: LWC Other usages (Est.): 9
+[2024.02.22-21.17.19:889][215]MaterialEditorStats: Shader Count: 66
+[2024.02.22-21.17.20:367][246]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-21.17.20:374][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-21.17.20:374][246]PIE: New page: PIE session: Main (Feb 22, 2024, 11:17:20 PM)
+[2024.02.22-21.17.20:374][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.17.20:387][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012755s)
+[2024.02.22-21.17.20:387][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.012806s)
+[2024.02.22-21.17.20:393][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.02.22-21.17.20:394][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-21.17.20:394][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-21.17.20:394][246]LogAIModule: Creating AISystem for world Main
+[2024.02.22-21.17.20:395][246]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.02.22-21.17.20:395][246]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-21.17.20:395][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-21.17.20:395][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-21.17.20:395][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-21.17.20:395][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-21.17.20:395][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-21.17.20:397][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-21.17.20:426][246]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Gaming Headset)
+[2024.02.22-21.17.20:426][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-21.17.20:426][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-21.17.20:426][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-21.17.20:427][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.02.22-21.17.20:427][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=20
+[2024.02.22-21.17.20:429][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.02.22-21.17.20:429][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.02.22-21.17.20:429][246]LogInit: FAudioDevice initialized with ID 20.
+[2024.02.22-21.17.20:429][246]LogAudio: Display: Audio Device (ID: 20) registered with world 'Main'.
+[2024.02.22-21.17.20:429][246]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.22-21.17.20:432][246]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-21.17.20:435][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.22-22.17.20
+[2024.02.22-21.17.20:435][246]LogWorld: Bringing up level for play took: 0.002990
+[2024.02.22-21.17.20:438][246]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.02.22-21.17.20:442][246]PIE: Server logged in
+[2024.02.22-21.17.20:443][246]PIE: Play in editor total start time 0.068 seconds.
+[2024.02.22-21.17.38:667][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.17.38:667][451]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.22-21.17.38:667][451]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-21.17.38:668][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.17.38:672][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-21.17.38:675][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-21.17.38:681][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-21.17.38:681][451]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.22-21.17.38:681][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.22-21.17.38:682][451]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.22-21.17.38:689][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.02.22-21.17.38:763][453]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.02.22-21.17.39:760][514]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.17.39:813][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-21.17.39:831][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.02.22-21.17.39:910][514]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.22-21.17.39:910][514]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/Main471DD30E460C1757F02844B4830ECFC2.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Maps/Main.umap'
+[2024.02.22-21.17.39:915][514]LogFileHelpers: All files are already saved.
+[2024.02.22-21.17.39:915][514]LogFileHelpers: Saving map 'Main' took 0.103
+[2024.02.22-21.17.39:929][514]LogFileHelpers: InternalPromptForCheckoutAndSave took 168 ms (total: 15.0 sec)
+[2024.02.22-21.17.39:933][514]AssetCheck: New page: Asset Save: Main
+[2024.02.22-21.17.39:933][514]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.22-21.17.41:281][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.02.22-21.17.42:204][601]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-21.17.42:326][601]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-21.17.42:420][601]LogSavePackage: Moving output files for package: /Game/Landscape/Mesh/Grass/GrassVariation_Texture
+[2024.02.22-21.17.42:421][601]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/GrassVariation_TextureF43A3ACC4D765134C51C4A89FAC7845B.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/GrassVariation_Texture.uasset'
+[2024.02.22-21.17.42:422][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscape/Mesh/Grass/WaveNoiseTexture" FILE="../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/WaveNoiseTexture.uasset" SILENT=true
+[2024.02.22-21.17.42:444][601]LogSavePackage: Moving output files for package: /Game/Landscape/Mesh/Grass/WaveNoiseTexture
+[2024.02.22-21.17.42:444][601]LogSavePackage: Moving '../../../../../../Users/tcaron/Projects/CapyTown/Saved/WaveNoiseTexture02F014244D61865C69F82F83BE06905F.tmp' to '../../../../../../Users/tcaron/Projects/CapyTown/Content/Landscape/Mesh/Grass/WaveNoiseTexture.uasset'
+[2024.02.22-21.17.42:921][601]LogFileHelpers: InternalPromptForCheckoutAndSave took 595 ms (total: 15.6 sec)
+[2024.02.22-21.17.42:923][601]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.22-21.17.42:923][601]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Landscape/Mesh/Grass/GrassVariation_Texture.GrassVariation_Texture
+[2024.02.22-21.17.42:923][601]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Landscape/Mesh/Grass/WaveNoiseTexture.WaveNoiseTexture
